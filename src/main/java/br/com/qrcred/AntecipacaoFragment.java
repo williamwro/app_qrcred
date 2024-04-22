@@ -58,7 +58,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class AntecipacaoFragment extends Fragment {
     public String Mes_Corrente = "";
-    //teste  ddd
+    // TESTE UPLOAD 22/04/2024
     public String nome_associado_string;
     String email;
     String cel;
