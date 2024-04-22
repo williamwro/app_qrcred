@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/item_expandable_listview.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/item_expandable_listview.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_main.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_main.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_tela_menu.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_tela_menu.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/linha_spiner_parcela.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/linha_spiner_parcela.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/content_home2_activity_menu_conv.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/content_home2_activity_menu_conv.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/recycler_item.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/recycler_item.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/nav_header_home2_activity_menu.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/nav_header_home2_activity_menu.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/content_mostra_cupon.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/content_mostra_cupon.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_tela_container_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_tela_container_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_menu2_main.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_menu2_main.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_main_contrato.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_main_contrato.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/fragment_map.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_main_redefinir_senha.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_main_redefinir_senha.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_scanner.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/spinner_estados.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/spinner_estados.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/linha_spiner_parcela_item.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/linha_spiner_parcela_item.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_extrato_fragment_tab_blank.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_extrato_fragment_tab_blank.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_coodenada_gps.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_coodenada_gps.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_antecipacao_tela_final.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_antecipacao_tela_final.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/app_bar_home2_activity_menu.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/app_bar_home2_activity_menu.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/item_view_user.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/item_view_user.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/convenios_detalhes.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/convenios_detalhes.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/content_home2_activity_menu.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/content_home2_activity_menu.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_mostra_cupon.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_mostra_cupon.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_meus_dados.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_meus_dados.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_politica_privacide.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_politica_privacide.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/nav_host_fragment_content_tela_container_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/nav_host_fragment_content_tela_container_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_tabela_receber.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_tabela_receber.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/header_espandable_list_view.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/header_espandable_list_view.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_main_redefinir_senha_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_main_redefinir_senha_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/linha_spinner.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/linha_spinner.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/linhaconta.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/linhaconta.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_main_foto_cupom.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_main_foto_cupom.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_cad_convenios.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_cad_convenios.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/linha.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/linha.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/fragment_qrcode.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/fragment_qrcode.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_maps.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_main_confirma_venda.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_main_confirma_venda.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_confirma_cad_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_confirma_cad_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/fragment_antecipacao.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/fragment_antecipacao.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_home2_menu.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_home2_menu.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/spinner_cidades.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/spinner_cidades.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_meus_dados_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_meus_dados_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/activity_tela_user.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/activity_tela_user.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout/app_bar_home2_activity_menu_conv.xml",
+        "source": "br.com.qrcred.app-main-111:/layout/app_bar_home2_activity_menu_conv.xml"
+    }
+]

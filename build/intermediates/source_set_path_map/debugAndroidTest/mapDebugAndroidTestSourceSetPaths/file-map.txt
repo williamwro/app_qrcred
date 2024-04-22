@@ -1,0 +1,4 @@
+br.com.qrcred.test.app-androidTest-0 C:\Users\will\StudioProjects\qrcred_app\app\build\generated\res\resValues\androidTest\debug
+br.com.qrcred.test.app-mergeDebugAndroidTestResources-1 C:\Users\will\StudioProjects\qrcred_app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+br.com.qrcred.test.app-mergeDebugAndroidTestResources-2 C:\Users\will\StudioProjects\qrcred_app\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+br.com.qrcred.test.app-debugAndroidTest-3 C:\Users\will\StudioProjects\qrcred_app\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

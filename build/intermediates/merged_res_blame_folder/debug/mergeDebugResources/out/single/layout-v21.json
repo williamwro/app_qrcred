@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/fragment_saldo.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/fragment_saldo.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/fragment_convenios.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/fragment_convenios.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/activity_home_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/activity_home_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/activity_telainicio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/activity_telainicio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/fragment_extrato.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/fragment_extrato.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/activity_pesquisa_conta.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/activity_pesquisa_conta.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/activity_login_convenio.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/activity_login_convenio.xml"
+    },
+    {
+        "merged": "br.com.qrcred.app-mergeDebugResources-108:/layout-v21/toolbar.xml",
+        "source": "br.com.qrcred.app-main-111:/layout-v21/toolbar.xml"
+    }
+]

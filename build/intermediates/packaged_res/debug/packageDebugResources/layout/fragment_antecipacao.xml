@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AntecipacaoFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/materialCardView"
+                    android:layout_width="308dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    app:cardElevation="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <TextView
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:text="@string/meu_saldo"
+                        android:textAlignment="center"
+                        android:textSize="24sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/materialCardView" />
+
+                    <TextView
+                        android:id="@+id/tvSaldoAntecipacao"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginBottom="30dp"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:textAlignment="center"
+                        android:text="R$ 300,00"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:typeface="normal"
+                        app:layout_constraintBottom_toBottomOf="@+id/materialCardView"
+                        app:layout_constraintTop_toBottomOf="@+id/textView45"
+                        tools:layout_editor_absoluteX="-27dp" />
+                </com.google.android.material.card.MaterialCardView>
+
+            <FrameLayout
+                android:id="@+id/frameLayoutValorPedido"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/box"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="4dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Edtotal_digitado"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:hint="@string/digite_o_resgate"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="4dp"
+                android:text="Taxas"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+                app:layout_constraintStart_toStartOf="@+id/frameLayout2" />
+            <FrameLayout
+                android:id="@+id/frameLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/box"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutValorPedido">
+
+                <TextView
+                    android:id="@+id/tvTaxa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="Taxa"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="4dp"
+                android:text="Valor a descontar"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
+                app:layout_constraintStart_toStartOf="@+id/frameLayout4" />
+            <FrameLayout
+                android:id="@+id/frameLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/box"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout2">
+
+                <TextView
+                    android:id="@+id/tvValorDescontar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="Valor a descontar"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frameLayoutPix"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/box"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayout4">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/chavepix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="4dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Edchave_pix"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:hint="@string/digite_o_pix"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/edSenha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                android:autofillHints=""
+                android:digits="1234567890"
+                android:ems="10"
+                android:fontFamily="@font/toma_sans_regular"
+                android:hint="@string/senha_cart_o"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+                android:textAlignment="center"
+                android:textSize="32sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/frameLayoutPix" />
+
+            <FrameLayout
+                android:id="@+id/frameLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edSenha">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRetornar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/solicitar"
+                    android:textColor="#FDFDFE"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

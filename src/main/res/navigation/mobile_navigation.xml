@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_saldo_assoc">
+
+    <fragment
+        android:id="@+id/nav_saldo_assoc"
+        android:name="br.com.qrcred.SaldoFragment"
+        android:label="@string/menu_saldo"
+        tools:layout="@layout/fragment_saldo" />
+
+    <fragment
+        android:id="@+id/nav_extrato_assoc"
+        android:name="br.com.qrcred.ExtratoFragment"
+        android:label="@string/menu_extrato"
+        tools:layout="@layout/fragment_extrato" />
+
+    <fragment
+        android:id="@+id/nav_convenios_assoc"
+        android:name="br.com.qrcred.ConveniosFragment"
+        android:label="@string/menu_convenios"
+        tools:layout="@layout/fragment_convenios" />
+
+    <fragment
+        android:id="@+id/nav_antecipacao_assoc"
+        android:name="br.com.qrcred.AntecipacaoFragment"
+        android:label="@string/antecipacaorotulo"
+        tools:layout="@layout/fragment_antecipacao" />
+
+    <fragment
+        android:id="@+id/nav_dados_assoc"
+        android:name="br.com.qrcred.Meus_dados"
+        android:label="@string/meusdados"
+        tools:layout="@layout/activity_meus_dados" />
+
+    <fragment
+        android:id="@+id/nav_qrcode_assoc"
+        android:name="br.com.qrcred.QrcodeFragment"
+        android:label="@string/menu_qrcode"
+        tools:layout="@layout/fragment_qrcode" />
+
+    <fragment
+        android:id="@+id/nav_sair_assoc"
+        android:name="br.com.qrcred.QrcodeFragment"
+        android:label="@string/menu_sair"
+        tools:layout="@layout/fragment_qrcode" />
+
+</navigation>

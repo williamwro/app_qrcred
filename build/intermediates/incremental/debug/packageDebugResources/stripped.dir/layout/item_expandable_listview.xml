@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="3dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/tvNomeFantasia"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/toma_sans_regular"
+            android:maxWidth="328dp"
+            android:singleLine="true"
+            android:text="@string/nome_fantasia"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvEndereco"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNomeFantasia"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-1dp"
+
+            android:layout_toStartOf="@+id/imgInfoConv"
+            android:ellipsize="end"
+            android:fontFamily="@font/toma_sans_regular"
+            android:maxWidth="328dp"
+            android:singleLine="true"
+            android:text="@string/endere_o__"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tvBairro"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvEndereco"
+            android:layout_alignEnd="@+id/imgInfoConv"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="113dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/toma_sans_regular"
+            android:maxWidth="328dp"
+            android:singleLine="true"
+            android:text="@string/bairro__"
+            android:textColor="#000" />
+
+        <ImageView
+            android:id="@+id/imgInfoConv"
+            android:layout_width="62dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="4dp"
+            android:layout_toEndOf="@+id/tvNomeFantasia"
+            android:src="@drawable/ic_input_black_24dp"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

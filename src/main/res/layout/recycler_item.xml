@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="348dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="2dp"
+
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iconeVerCupom"
+                android:layout_width="63dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="6dp"
+                android:contentDescription="@string/cupom"
+                android:src="@drawable/ic_foto_foreground"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textViewConvenio"
+                android:layout_width="241dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/toma_sans_regular"
+                android:text="@string/razaosocial"
+
+                android:textStyle="bold"
+                android:typeface="sans"
+                app:layout_constraintStart_toEndOf="@+id/iconeVerCupom"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewData"
+                android:layout_width="103dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="7dp"
+                android:fontFamily="@font/toma_sans_regular"
+                android:text="@string/data"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                android:typeface="sans"
+                app:layout_constraintStart_toEndOf="@+id/iconeVerCupom"
+                app:layout_constraintTop_toBottomOf="@+id/textViewConvenio" />
+
+            <TextView
+                android:id="@+id/textViewHora"
+                android:layout_width="70dp"
+                android:layout_height="21dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/toma_sans_regular"
+                android:text="@string/hora"
+                android:textAlignment="viewStart"
+                android:textSize="16sp"
+                android:typeface="sans"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/iconeVerCupom"
+                app:layout_constraintTop_toBottomOf="@+id/textViewData" />
+
+            <TextView
+                android:id="@+id/textViewParcela"
+                android:layout_width="60dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/toma_sans_regular"
+                android:text="@string/parcela"
+                android:textAlignment="viewEnd"
+                android:textSize="16sp"
+                android:typeface="sans"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textViewHora"
+                app:layout_constraintTop_toBottomOf="@+id/textViewData" />
+
+            <TextView
+                android:id="@+id/textViewValor"
+                android:layout_width="108dp"
+                android:layout_height="42dp"
+                android:layout_gravity="end"
+                android:layout_marginStart="40dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/toma_sans_regular"
+                android:gravity="end"
+                android:minWidth="76dp"
+                android:paddingTop="15dp"
+                android:text="@string/valor"
+                android:textAlignment="textEnd"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textViewData"
+                app:layout_constraintTop_toBottomOf="@+id/textViewConvenio" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

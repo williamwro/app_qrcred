@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_convenio"
+    app:startDestination="@+id/nav_lancamento">
+
+    <fragment
+        android:id="@+id/nav_lancamento"
+        android:name="br.com.qrcred.convenio.HomeConvenioActivity"
+        android:label="@string/autorizador"
+        tools:layout="@layout/activity_home_convenio" />
+
+    <fragment
+        android:id="@+id/nav_meusdadosconv"
+        android:name="br.com.qrcred.Meus_dados_convenioActivity"
+        android:label="@string/meusdados"
+        tools:layout="@layout/activity_meus_dados_convenio" />
+
+    <fragment
+        android:id="@+id/nav_minhasvendas"
+        android:name="br.com.qrcred.convenio.pesquisa_conta"
+        android:label="@string/minhasvendas"
+        tools:layout="@layout/activity_pesquisa_conta" />
+
+    <fragment
+        android:id="@+id/nav_minhalocalizacao"
+        android:name="br.com.qrcred.convenio.Coodenada_gps_Activity"
+        android:label="@string/minhalocalizacao"
+        tools:layout="@layout/activity_coodenada_gps" />
+
+    <fragment
+        android:id="@+id/nav_tabelarecebimentos"
+        android:name="br.com.qrcred.TabelaReceberActivity"
+        android:label="@string/tabela_pagto"
+        tools:layout="@layout/activity_tabela_receber" />
+
+
+</navigation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp">
+
+
+    <TextView
+        android:id="@+id/textViewMes"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:fontFamily="@font/toma_sans_regular"
+        android:padding="7sp"
+        android:text="@string/textviewmes"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textViewPeriodo"
+        android:layout_width="261dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/textViewMes"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/textViewMes"
+        android:fontFamily="@font/toma_sans_regular"
+        android:padding="7sp"
+        android:text="@string/textviewperiodo"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#A8A8A8" />
+
+</RelativeLayout>

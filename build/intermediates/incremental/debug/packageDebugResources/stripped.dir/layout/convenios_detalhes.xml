@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/CATEGORIA_CONVENIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="6dp"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/categoria"
+            android:textAlignment="center"
+            android:textColor="@color/quantum_black_100"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="47dp" />
+    </LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_perm_contact_calendar_24"/>
+        <TableLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/NOME_CONVENIO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:padding="10dp"
+                    android:text="@string/nome_"
+                    android:textColor="@color/quantum_black_100"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/ENDERECO_CONVENIO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:padding="10dp"
+                    android:text="@string/endere_o__"
+                    android:textColor="@color/quantum_black_100"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/BAIRRO_CONVENIO"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:padding="10dp"
+                    android:text="@string/bairro__"
+                    android:textColor="@color/quantum_black_100"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/TELEFONE_CONVENIO"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:padding="10dp"
+                    android:text="@string/telefone_"
+                    android:textColor="@color/quantum_black_100"
+                    android:textStyle="bold" />
+                <ImageButton
+                    android:id="@+id/CallTel"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/phone31105"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/CELULAR_CONVENIO"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:padding="10dp"
+                    android:text="@string/celular_"
+                    android:textColor="@color/quantum_black_100"
+                    android:textStyle="bold"/>
+                <ImageButton
+                    android:id="@+id/CallCel"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/phone31105"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+            </TableRow>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/imageButtonLocation"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icons8googlemaps48"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </TableLayout>
+</LinearLayout>

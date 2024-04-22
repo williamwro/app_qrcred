@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "br.com.qrcred.app-mergeDebugResources-107:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\will\\StudioProjects\\qrcred_app\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3,11,8,7,10,9",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "88,146,603,434,375,553,495",
+                        "endColumns": "57,55,41,60,58,49,57",
+                        "endOffsets": "141,197,640,490,429,598,548"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,169,211,272,331,381",
+                        "endColumns": "57,55,41,60,58,49,57",
+                        "endOffsets": "108,164,206,267,326,376,434"
+                    }
+                }
+            ]
+        }
+    ]
+}

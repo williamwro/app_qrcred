@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Menu2MainActivity">
+    <include
+        android:id="@+id/toolbarMenu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:alpha="0.7"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+
+            android:layout_marginLeft="20dp"
+
+
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="28dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="20dp">
+                <Button
+                    android:id="@+id/buttonSouCadastrado"
+                    android:layout_width="280dp"
+                    android:layout_height="93dp"
+                    android:layout_marginTop="100dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:textSize="18sp"
+                    android:text="@string/j_sou_cadastrado" />
+
+                <Button
+                    android:id="@+id/buttonNaoSouCadastrado"
+                    android:layout_width="280dp"
+                    android:layout_height="93dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/n_o_sou_cadastrado"
+
+                    app:layout_constraintBottom_toTopOf="@+id/buttonManual"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.495"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonSouCadastrado"
+                    app:layout_constraintVertical_bias="0.465" />
+
+                <Button
+                    android:id="@+id/buttonManual"
+                    android:layout_width="280dp"
+                    android:layout_height="93dp"
+                    android:layout_marginBottom="100dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="Manual do convenio"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

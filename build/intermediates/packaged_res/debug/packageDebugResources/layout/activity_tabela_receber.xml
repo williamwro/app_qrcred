@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.qrcred.TabelaReceberActivity" >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabelaReceberActivity">
+    <GridLayout
+        android:layout_width="315dp"
+        android:layout_height="592dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:columnCount="3"
+        android:orientation="vertical"
+
+        android:rowCount="15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center"
+            android:text="@string/per_do_de_vendas_x_recebimento"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:text="@string/per_odo_de_vendas"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_downward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_janeiro_a_n_03_de_fevereiro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_fevereiro_a_n_03_de_mar_o"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_mar_o_a_n_03_de_abril"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_abril_a_n_03_de_maio"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_maio_a_n_03_de_junho"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_junho_a_n_03_de_julho"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_julho_a_n_03_de_agosto"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_agosto_a_n_03_de_setembro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_setembro_a_n_03_de_outubro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_outubro_a_n_03_de_novembro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="13"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_novembro_a_n_03_de_dezembro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_row="14"
+            android:layout_column="0"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_04_de_dezembro_a_n_03_de_janeiro"
+            android:textAlignment="center" />
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="11"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="12"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="13"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="14"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:text="@string/recebimento"
+            android:textAlignment="center" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_arrow_downward_24"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_mar_o"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_abril"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_maio"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_junho"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_julho"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_agosto"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="9"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_setembro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="10"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_outubro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="11"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_novembro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="12"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_dezembro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="13"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_janeiro"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="147dp"
+            android:layout_height="40dp"
+            android:layout_row="14"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@drawable/textviewborder"
+            android:gravity="center"
+            android:text="@string/_5_dia_util_de_n_fevereiro"
+            android:textAlignment="center" />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

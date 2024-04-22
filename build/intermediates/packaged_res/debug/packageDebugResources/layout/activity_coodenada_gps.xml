@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".convenio.Coodenada_gps_Activity">
+    <ImageButton
+        android:id="@+id/imageButtonLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="20dp"
+
+        android:src="@drawable/icons8googlemaps48"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/toma_sans_regular"
+        android:text="@string/click_no_bot_o_abaixo_somente_quando_estiver_localizado_em_seu_estabelecimento"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnDefinirGps"
+        android:layout_marginTop="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/toma_sans_regular"
+        android:text="@string/definir" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/latitude" />
+        <TextView
+            android:id="@+id/tvLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/trestraco"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/longitude"
+           />
+        <TextView
+            android:id="@+id/tvLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/trestraco"
+            />
+    </LinearLayout>
+</LinearLayout>

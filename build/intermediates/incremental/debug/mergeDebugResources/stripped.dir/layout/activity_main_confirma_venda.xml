@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_cd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="br.com.qrcred.MainActivityConfirma_venda">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEnviaSms"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="64dp"
+        android:text="Enviar Comprovante SMS"
+
+        app:layout_constraintBottom_toTopOf="@+id/btnRetornaHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/view_Background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/papel"
+        app:layout_constraintBottom_toTopOf="@+id/btnRetornaHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/img_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRetornaHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <TextView
+        android:id="@+id/tvAssociado_rotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/toma_sans_regular"
+        android:gravity="left"
+        android:text="Titular:"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/toma_sans_regular"
+        android:gravity="left"
+        android:text="@string/valor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tvValor_rotulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvRegistro" />
+
+    <TextView
+        android:id="@+id/tvValor_rotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/toma_sans_regular"
+
+        android:text="Total:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/tvAssociado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/toma_sans_regular"
+        android:gravity="left"
+        android:text="@string/associado"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:maxLength="36"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tvAssociado_rotulo"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnRetornaHome"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/retornar_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="75dp"
+        android:text="Conprovante Digital"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convenio Qrcred"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="------------------------------------------------------------------"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <TextView
+        android:id="@+id/tvConvenio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:text="tvConvenio"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/TvCnpjCpfRotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Cnpj:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/tvConvenio" />
+
+    <TextView
+        android:id="@+id/tvCnpjCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="tvCnpjCpf"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/TvCnpjCpfRotulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvConvenio" />
+
+    <TextView
+        android:id="@+id/tvEndereco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:text="tvEndereco"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/tvCnpjCpf" />
+
+    <TextView
+        android:id="@+id/tvBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="tvBairro"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/tvEndereco" />
+
+    <TextView
+        android:id="@+id/tvCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:text="tvCidade"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/tvBairro"
+        app:layout_constraintTop_toBottomOf="@+id/tvEndereco" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="------------------------------------------------------------------"
+        app:layout_constraintEnd_toEndOf="@+id/view_Background"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/tvBairro" />
+
+    <TextView
+        android:id="@+id/tvParcelaRotulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Qtde parcelas:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/tvParcela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="tvParcela"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/tvParcelaRotulo"
+        app:layout_constraintTop_toBottomOf="@+id/tvMesDesconto" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Registro:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+    <TextView
+        android:id="@+id/tvRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="tvRegistro"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/tvValoParcela" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Data:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/tvAssociado_rotulo" />
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="tvData"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView55"
+        app:layout_constraintTop_toBottomOf="@+id/tvAssociado" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Hora:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <TextView
+        android:id="@+id/tvHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="tvHora"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView58"
+        app:layout_constraintTop_toBottomOf="@+id/tvData" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprovado!"
+        android:textColor="@color/quantum_googgreenA400"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Valor parcela:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/tvParcelaRotulo" />
+
+    <TextView
+        android:id="@+id/tvValoParcela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="tvValoParcela"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView50"
+        app:layout_constraintTop_toBottomOf="@+id/tvParcela" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Mes de desconto:"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/view_Background"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/tvMesDesconto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:text="tvMesDesconto"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/textView52"
+        app:layout_constraintTop_toBottomOf="@+id/tvHora" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

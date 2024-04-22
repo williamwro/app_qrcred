@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout_home_convenio"
+    tools:context=".convenio.HomeConvenioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/note_list_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box">
+
+                <TextView
+                    android:id="@+id/tvNomeFantasia"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/nomefantasia"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRazaoSocial"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/razaosocial_"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvEndereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="36dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/endere_o_"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvBairro"
+                    android:layout_width="165dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="54dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/bairro_"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCidade"
+                    android:layout_width="138dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="72dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/cidade_"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvCnpjCpf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="90dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/cnpjoucpf"
+                    android:textSize="12sp" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginTop="7dp"
+                android:background="#A8A8A8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnLerCartao"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:background="@mipmap/ic_qrcode_16d_foreground" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="240dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight=".3">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edCartao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:gravity="center"
+                        android:hint="@string/digite_o_cart_o"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:textSize="28sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/btnLocaliza"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/ic_lupa"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/box">
+
+                <TextView
+                    android:id="@+id/tvAssociado"
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="Nome titular"
+                    android:textColor="@color/green"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box">
+
+                <TextView
+                    android:id="@+id/tvSaldo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="Saldo cartão"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="8dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Edtotal_digitado"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:hint="@string/digite_o_total"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="viewEnd"
+                        android:textColor="@android:color/black"
+                        android:textSize="28sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-120dp"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:id="@+id/progressBar_conv"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="46dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginTop="5dp"
+
+                android:background="@drawable/box">
+
+                <TextView
+                    android:id="@+id/tvValorParcela"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/valor_parcela"
+                    android:textSize="22sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/box">
+
+                <Spinner
+                    android:id="@+id/spinnerParcelas"
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:prompt="@string/parcelas"
+                    android:tooltipText="PARCELAS"
+                    tools:targetApi="o" />
+            </FrameLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/box"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/materialCardView">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="4dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tvescricaocompra"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/toma_sans_regular"
+                            android:hint="@string/descriçao_da_compra"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/edSenha"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:autofillHints=""
+                android:digits="1234567890"
+                android:ems="10"
+                android:fontFamily="@font/toma_sans_regular"
+                android:hint="@string/senha_cart_o"
+                android:inputType="numberPassword"
+                android:maxLength="6"
+                android:textAlignment="center"
+                android:textSize="32sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="0dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRetornar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:fontFamily="@font/toma_sans_regular"
+                    android:text="@string/proximo"
+                    android:textColor="#FDFDFE"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

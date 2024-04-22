@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".TelaMenuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:paddingBottom="16dp">
+        <include
+            android:id="@+id/toolbarmenu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/toolbar" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:src="@mipmap/ic_launcher_round" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="20dp">
+            <FrameLayout
+                android:id="@+id/frameUsuarioMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:background="@color/md_theme_light_primary"
+                android:layout_marginEnd="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:orientation="vertical"
+                    tools:ignore="contentDescription">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_person_black_24dp"
+                        android:contentDescription="@string/icone_peson"
+                        tools:ignore="VectorDrawableCompat" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="90dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:gravity="start"
+                        android:text="@string/usu_rio_"
+                        android:textColor="@color/ic_affe_logo4_background"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:text="@string/portador_do_cart_o"
+                        android:textColor="@color/ic_affe_logo4_background" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_input_white_24dp"
+                        android:contentDescription="@string/icone_entra"
+                        tools:ignore="VectorDrawableCompat" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp">
+
+            <FrameLayout
+                android:id="@+id/frameConvenioMenu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:background="@color/md_theme_light_primary"
+                android:layout_marginEnd="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="68dp"
+                        android:layout_height="55dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_store_black_24dp"
+                        android:contentDescription="@string/icone_estab"
+                        tools:ignore="VectorDrawableCompat" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="90dp"
+                    android:gravity="start"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:gravity="start"
+                        android:text="@string/estabelecimento"
+                        android:textColor="@color/ic_affe_logo4_background"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/toma_sans_regular"
+                        android:text="@string/rede_conveniada"
+                        android:textColor="@color/ic_affe_logo4_background" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="42dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/ic_input_white_24dp"
+                        android:contentDescription="@string/icone_entra"
+                        tools:ignore="VectorDrawableCompat" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/TvPVersao"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="start"
+                android:gravity="center"
+                android:textColorLink="@color/blue"
+                android:textSize="12sp"
+                android:textColor="@color/md_theme_dark_inversePrimary"
+                android:focusable="true"
+                android:fontFamily="@font/toma_sans_regular"
+                android:text="@string/versao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/TvPrivacidade"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="start"
+                android:gravity="center"
+                android:textColorLink="@color/blue"
+                android:textSize="22sp"
+                android:textColor="@color/md_theme_dark_inversePrimary"
+                android:linksClickable="true"
+                android:fontFamily="@font/toma_sans_regular"
+                android:text="@string/politica_de_privacidade" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

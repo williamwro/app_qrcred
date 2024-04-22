@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iconeVerCupom"
+            android:layout_width="56dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/cupom"
+            android:src="@drawable/ic_foto_foreground" />
+
+        <TextView
+            android:id="@+id/textViewAssociado"
+            android:layout_width="330dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="9dp"
+            android:layout_toEndOf="@+id/iconeVerCupom"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/associado"
+
+            android:textStyle="bold"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/textViewData"
+            android:layout_width="80dp"
+            android:layout_height="21dp"
+            android:layout_below="@+id/textViewAssociado"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/iconeVerCupom"
+            android:fontFamily="@font/toma_sans_regular"
+            android:text="@string/data"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/textViewHora"
+            android:layout_width="60dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/textViewAssociado"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@id/textViewData"
+            android:fontFamily="@font/toma_sans_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/hora"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textViewParcela"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAssociado"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="25dp"
+            android:layout_toEndOf="@+id/textViewHora"
+
+            android:fontFamily="@font/toma_sans_regular"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/textViewValor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewAssociado"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="6dp"
+            android:fontFamily="@font/toma_sans_regular"
+            android:minWidth="80dp"
+            android:text="@string/valor"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/textViewData"
+            android:layout_marginTop="0dp"
+            android:background="#31000000"
+            android:focusable="false" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
